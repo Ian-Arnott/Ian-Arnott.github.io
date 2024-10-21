@@ -1,9 +1,15 @@
-import React from 'react'
-import { Github, Linkedin, Mail } from 'lucide-react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
-export default function App() {
+function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800">
+      <Helmet>
+        <title>Ian James Arnott - Software Engineer & Game Developer</title>
+        <meta name="description" content="Portfolio of Ian James Arnott, Software Engineering Student at ITBA and Game Developer" />
+      </Helmet>
+
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Ian James Arnott</h1>
@@ -71,9 +77,9 @@ export default function App() {
       <section id="contact" className="bg-gray-800 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Contact</h2>
-          <p className="mb-6">You can reach me at <a href="mailto:iarnott@itba.edu.ar" className="text-blue-300 hover:underline">iarnott@itba.edu.ar</a> or find me on <a href="https://www.linkedin.com/in/ian-arnott-755808207/" className="text-blue-300 hover:underline">LinkedIn</a>.</p>
+          <p className="mb-6">You can reach me at <a href="mailto:ianjamesarnott@gmail.com" className="text-blue-300 hover:underline">ianjamesarnott@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/ian-arnott-755808207/" className="text-blue-300 hover:underline">LinkedIn</a>.</p>
           <div className="flex justify-center space-x-6">
-            <a href="mailto:iarnott@itba.edu.ar" className="text-white hover:text-blue-300 transition duration-300">
+            <a href="mailto:ianjamesarnott@gmail.com" className="text-white hover:text-blue-300 transition duration-300">
               <Mail size={24} />
             </a>
             <a href="https://www.linkedin.com/in/ian-arnott-755808207/" className="text-white hover:text-blue-300 transition duration-300">
@@ -92,5 +98,7 @@ export default function App() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
+
+export default App;
