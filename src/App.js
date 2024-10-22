@@ -30,11 +30,12 @@ function App() {
           <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
           <div className="bg-white rounded-lg shadow-lg p-6">
             <p className="mb-4">
-              I am a fifth-year Software Engineering student at ITBA, passionate about game development, including gameplay scripting, event systems, animation, and modeling in both 2D and 3D. I also explore XR, UX/UI design, web development, and mobile apps.
+            A fifth-year Software Engineering student at ITBA with a strong focus on game development and design. My expertise includes 2D/3D gameplay scripting, event systems, animation, and modeling, all driven by a passion for creating immersive gaming experiences.     
             </p>
             <p>
-              I love learning and look forward to creating new and innovative experiences in game development. Whether it's through scripting fun and complex mechanics or developing immersive VR experiences, I am always eager to push boundaries in the field.
+            In addition to my work in game development, I am expanding my skills in web and mobile development, exploring modern frameworks. I am also actively learning about AI and machine learning.         
             </p>
+            <p>As a growing professional, I am committed to continuous learning and eager to contribute to groundbreaking projects in game design and software development.</p>
           </div>
         </section>
 
